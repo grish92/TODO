@@ -1,0 +1,60 @@
+.App {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 33%;
+  height: 60vh;
+  background: #fff;
+  border-radius: 20px;
+  padding: 80px;
+  overflow: auto;
+}
+.title {
+  font-size: 48px;
+  padding-top: 40px;
+  margin-top: 0;
+}
+.input__container {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-left: 15px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.task__list {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 20px;
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(50, 142, 215, 1) 100%
+  );
+}
+
+ul li {
+  list-style-type: none;
+}
+
+h2 {
+  text-align: center;
+}
+.checkboxes {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,27 @@
+.check__task {
+  border-radius: 10px;
+}
+.task__item {
+  border: 1px solid black;
+  width: 80%;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.remove__btn {
+  position: absolute;
+  background: transparent;
+  border: none;
+  right: -6px;
+  top: -1px;
+}
+.remove__btn img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.remove__btn img:hover {
+  background: red;
+}

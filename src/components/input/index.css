@@ -1,0 +1,19 @@
+.task__input {
+  height: 30px;
+  width: 80%;
+  border: none;
+  outline: none;
+}
+.add {
+  border: none;
+  position: absolute;
+  width: 10%;
+  right: 0px;
+  font-size: 20px;
+  cursor: pointer;
+  background: #328ed7;
+  height: 100%;
+}
+.add:hover {
+  opacity: 0.8;
+}
